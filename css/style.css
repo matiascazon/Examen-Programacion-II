@@ -222,7 +222,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 360px;
+    min-height: 360px;
 }
 
 footer img{
@@ -466,7 +466,7 @@ footer li{
 /** Nosotros **/
 
 #nosotros{
-    height: 100vh;
+    min-height: 100vh;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
@@ -475,7 +475,6 @@ footer li{
 }
 
 .carta {
-    /* min-width: 150px; */
     width: 100%;
     max-width: 450px;
     margin: 10px auto;
@@ -501,6 +500,7 @@ footer li{
 
   .carta p {
     margin-bottom: 10px;
+    font-size: 1.2rem;
   }
 
   .carta a {
